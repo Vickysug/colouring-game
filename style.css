@@ -49,11 +49,11 @@ canvas {
 	overflow: hidden;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px) {}
     ul li, #newColor {
         height: 40px;
         width: 40px;
-    }}
+    }
 ul {
 	list-style:none;
 	margin: 0;
@@ -91,7 +91,7 @@ ul li {
 }
 
 .selected {
-	border: 7px solid #68B25B;
+	border: 7px solid #818380;
 	width: 40px;
 	height: 40px;
 }
@@ -100,9 +100,9 @@ ul li {
 ==============*/
 
 button {
-	background: #68B25B;
-	box-shadow: 0 3px 0 0 #6A845F;
-	color: #fff;
+	background: #818380;
+	box-shadow: 0 3px 0 0 #818380;
+	color: #050505;
 	outline: none;
 	cursor: pointer;
 	text-shadow: 0 1px #6A845F;
